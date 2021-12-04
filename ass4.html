@@ -1,0 +1,27 @@
+<!--
+Prog No:4
+Prog Name:Count vowels of a given string
+Date:4/12/2020
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment4</title>
+		
+	</head>
+	<body style="font-size:50px">
+		<script language="javascript" text="text/javascript">
+			function countVowel(str)
+			{
+				const count = str.match(/[aeiou]/gi).length;
+				return count;
+			}
+			str="ratna mondal";
+			result=countVowel(str);
+			document.write("string is:"+str);
+			document.write("<br>");
+			document.write("No. of vowel in string:"+result);
+			
+		</script>
+	</body>
+</html>
